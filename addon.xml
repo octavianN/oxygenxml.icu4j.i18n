@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xt:extensions xmlns:xt="http://www.oxygenxml.com/ns/extension"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.oxygenxml.com/ns/extension http://www.oxygenxml.com/ns/extension/extensions.xsd">
+    <xt:extension id="oxygenxml.icu4j.i18n">
+        <xt:location href="https://github.com/raducoravu/oxygenxml.icu4j.i18n/archive/master.zip"/>
+        <xt:version>1.0.0</xt:version>
+        <xt:oxy_version>17.0+</xt:oxy_version>
+        <xt:type>plugin</xt:type>
+        <xt:author>Radu Coravu</xt:author>
+        <xt:name>Contribute libraries to Oxygen which help to better sort text.</xt:name>
+        <xt:description xmlns="http://www.w3.org/1999/xhtml">Contribute libraries to Oxygen which make it possible for Saxon xsl:sort to better sort content in exotic languages like Tamil.</xt:description>
+    </xt:extension>
+</xt:extensions>

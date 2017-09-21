@@ -1,0 +1,14 @@
+<!DOCTYPE plugin PUBLIC "-//Oxygen Plugin" "../plugin.dtd">
+<plugin
+ id="oxygenxml.icu4j.i18n"
+ name="Contribute libraries to Oxygen which make it possible to better sort content"
+ description="Contribute libraries to Oxygen which make it possible to better sort content in various languages like Tamil."
+ version="1.0"
+ vendor="Radu Coravu"
+ class="ro.sync.exml.plugin.Plugin"
+ classLoaderType="preferReferencedResources">
+ <extension type="WorkspaceAccessJS" href="wsAccess.js"/>
+ <runtime>
+  <librariesFolder name="lib" scope="globalHighPriority"/>
+ </runtime>
+</plugin>
