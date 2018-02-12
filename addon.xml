@@ -8,8 +8,8 @@
         <xt:oxy_version>17.0+</xt:oxy_version>
         <xt:type>plugin</xt:type>
         <xt:author>Radu Coravu</xt:author>
-        <xt:name>Contribute libraries to Oxygen which help to better sort text.</xt:name>
-        <xt:description xmlns="http://www.w3.org/1999/xhtml">Contribute libraries to Oxygen which make it possible for Saxon xsl:sort to better sort content in exotic languages like Tamil.</xt:description>
+        <xt:name>Contribute ICU4J Library</xt:name>
+        <xt:description xmlns="http://www.w3.org/1999/xhtml">Contributes the entire ICU4J library used for sorting and collations with XSLT processors. The Saxon 9 XSLT processor has an xsl:sort element that can be used to sort elements based on their text content. If the XML elements contain text in exotic languages, Saxon needs a more powerful sort algorithm and this JAR library adds this capability.</xt:description>
         <xt:license><![CDATA[
                                  Apache License
                            Version 2.0, January 2004
