@@ -18,3 +18,9 @@ How to install
 3. Select the **Contribute ICU4J Library** add-on and click Next.
 4. Select the **I accept all terms of the end user license agreement** option and click **Finish**.
 5. Restart the application.
+
+Copyright and License
+---------------------
+Copyright 2018 Syncro Soft SRL.
+
+This project is licensed under [Apache License 2.0](https://github.com/oxygenxml/oxygenxml.icu4j.i18n/blob/master/LICENSE)
