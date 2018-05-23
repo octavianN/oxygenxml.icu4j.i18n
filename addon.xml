@@ -7,7 +7,7 @@
         <xt:version>1.0.0</xt:version>
         <xt:oxy_version>17.0+</xt:oxy_version>
         <xt:type>plugin</xt:type>
-        <xt:author>Radu Coravu</xt:author>
+        <xt:author>Syncro Soft SRL</xt:author>
         <xt:name>Contribute ICU4J Library</xt:name>
         <xt:description xmlns="http://www.w3.org/1999/xhtml">
             <html>
