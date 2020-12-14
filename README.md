@@ -16,7 +16,7 @@ How to install
 1. In Oxygen, go to **Help->Install new add-ons** to open an add-on selection dialog box.
 2. Enter or paste https://raw.githubusercontent.com/oxygenxml/oxygenxml.icu4j.i18n/master/addon.xml in the **Show add-ons from** field.
 3. Select the **Contribute ICU4J Library** add-on and click Next.
-4. Select the **I accept all terms of the end user license agreement** option and click **Finish**.
+4. Read the end-user license agreement. Then select the **I accept all terms of the end-user license agreement** option and click **Finish**.
 5. Restart the application.
 
 Copyright and License
