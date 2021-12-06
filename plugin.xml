@@ -4,7 +4,7 @@
  name="Contribute libraries to Oxygen which make it possible to better sort content"
  description="Contribute libraries to Oxygen which make it possible to better sort content in various languages like Tamil."
  version="1.0"
- vendor="Radu Coravu"
+ vendor="Syncro Soft"
  class="ro.sync.exml.plugin.Plugin"
  classLoaderType="preferReferencedResources">
  <extension type="WorkspaceAccessJS" href="wsAccess.js"/>
