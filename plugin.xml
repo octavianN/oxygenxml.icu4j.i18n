@@ -1,8 +1,8 @@
 <!DOCTYPE plugin PUBLIC "-//Oxygen Plugin" "../plugin.dtd">
 <plugin
- id="oxygenxml.icu4j.i18n"
- name="Contribute libraries to Oxygen which make it possible to better sort content"
- description="Contribute libraries to Oxygen which make it possible to better sort content in various languages like Tamil."
+ id="oxygenxml.html.parser"
+ name="Contribute libraries to Oxygen"
+ description="Contribute htmlParser librarie to Oxygen"
  version="1.0"
  vendor="Syncro Soft"
  class="ro.sync.exml.plugin.Plugin"

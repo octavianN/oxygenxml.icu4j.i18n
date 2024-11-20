@@ -2,24 +2,24 @@
 <xt:extensions xmlns:xt="http://www.oxygenxml.com/ns/extension"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.oxygenxml.com/ns/extension http://www.oxygenxml.com/ns/extension/extensions.xsd">
-    <xt:extension id="oxygenxml.icu4j.i18n">
-        <xt:location href="https://github.com/oxygenxml/oxygenxml.icu4j.i18n/archive/master.zip"/>
+    <xt:extension id="oxygenxml.html.parser">
+        <xt:location href="https://github.com/octaviann/oxygenxml.HTMLParser.i18n/archive/html-parser.zip"/>
         <xt:version>1.0.0</xt:version>
         <xt:oxy_version>17.0+</xt:oxy_version>
         <xt:type>plugin</xt:type>
         <xt:author>Syncro Soft</xt:author>
-        <xt:name>Contribute ICU4J Library</xt:name>
+        <xt:name>Contribute HTMLParser Library</xt:name>
         <xt:description xmlns="http://www.w3.org/1999/xhtml">
             <html>
                 <head>
-                    <title>Contribute ICU4J Library</title>
+                    <title>Contribute HTMLParser Library</title>
                 </head>
                 <body>
-                    <p>Contributes the entire ICU4J library used for sorting and collations with XSLT processors. 
+                    <p>Contributes the entire HTMLParser library used for sorting and collations with XSLT processors. 
                         The Saxon 9 XSLT processor has an xsl:sort element that can be used to sort elements based on their text content. 
                         If the XML elements contain text in exotic languages, Saxon needs a more powerful sort algorithm and this JAR library adds this capability.</p>
-                    <p>For more details, please visit the project location: <a href="https://github.com/oxygenxml/oxygenxml.icu4j.i18n">
-                        https://github.com/oxygenxml/oxygenxml.icu4j.i18n</a></p>
+                    <p>For more details, please visit the project location: <a href="https://github.com/oxygenxml/oxygenxml.HTMLParser.i18n">
+                        https://github.com/oxygenxml/oxygenxml.HTMLParser.i18n</a></p>
                 </body>
             </html>
             </xt:description>
@@ -41,8 +41,7 @@
             The Plugin may include certain of the following third party software components.
             The copyright notices, disclaimers and license terms applicable to such third party software components are listed below:
             
-            icu4j-59_1.jar
-            Site: http://icu-project.org/
+            HTMLParser-1.4.16.jar
             License:
 
 COPYRIGHT AND PERMISSION NOTICE (ICU 58 and later)
