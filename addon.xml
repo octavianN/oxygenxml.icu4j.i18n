@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.oxygenxml.com/ns/extension http://www.oxygenxml.com/ns/extension/extensions.xsd">
     <xt:extension id="oxygenxml.html.parser">
-        <xt:location href="https://github.com/octaviann/oxygenxml.HTMLParser.i18n/archive/html-parser.zip"/>
+        <xt:location href="https://github.com/octaviann/oxygenxml.icu4j.i18n/archive/html-parser.zip"/>
         <xt:version>1.0.0</xt:version>
         <xt:oxy_version>17.0+</xt:oxy_version>
         <xt:type>plugin</xt:type>

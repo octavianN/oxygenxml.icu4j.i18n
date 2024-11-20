@@ -1,21 +1,18 @@
-# ICU4j JAR Library
+# HTMLParser JAR Library
 
-This Oxygen XML Editor plugin provides the entire ICU4J JAR library used for sorting and collations with XSLT processors.
+This Oxygen XML Editor plugin provides the entire HTMLParser JAR library used for XSLT processors.
 
-For example, the Saxon 9 XSLT processor has an *xsl:sort* element that can be used to sort elements based on their text content:
+For example, the Saxon XSLT processor has an *saxon:parse-html* function that need the html parser library in the class path:
 
-            <xsl:for-each select="/*/*">
-                <xsl:sort select="." collation="http://www.w3.org/2013/collation/UCA?lang=ta"/> 
-                <xsl:copy-of select="."/>
-            </xsl:for-each>
+             <xsl:template name="xsl:initial-template">
+                 <xsl:sequence select="saxon:parse-html('&lt;html&gt;&lt;p&gt;test&lt;/p&gt;&lt;/html&gt;')"/>
+             </xsl:template>
             
-If the XML elements contain texts in exotic languages, Saxon needs a more powerful sort algorithm and the ICU4J library provides this extra support.
-
 How to install
 --------------
 1. In Oxygen, go to **Help->Install new add-ons** to open an add-on selection dialog box.
-2. Enter or paste https://raw.githubusercontent.com/oxygenxml/oxygenxml.icu4j.i18n/master/addon.xml in the **Show add-ons from** field.
-3. Select the **Contribute ICU4J Library** add-on and click Next.
+2. Enter or paste https://raw.githubusercontent.com/octaviann/oxygenxml.icu4j.i18n/html-parser/addon.xml in the **Show add-ons from** field.
+3. Select the **Contribute HTMLParser Library** add-on and click Next.
 4. Read the end-user license agreement. Then select the **I accept all terms of the end-user license agreement** option and click **Finish**.
 5. Restart the application.
 
@@ -23,4 +20,4 @@ Copyright and License
 ---------------------
 Copyright 2018 Syncro Soft SRL.
 
-This project is licensed under [Apache License 2.0](https://github.com/oxygenxml/oxygenxml.icu4j.i18n/blob/master/LICENSE)
+This project is licensed under [Apache License 2.0](https://github.com/oxygenxml/oxygenxml.icu4j.i18n/blob/html-parser/LICENSE)
