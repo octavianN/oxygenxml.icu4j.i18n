@@ -9,6 +9,6 @@
  classLoaderType="preferReferencedResources">
  <extension type="WorkspaceAccessJS" href="wsAccess.js"/>
  <runtime>
-  <librariesFolder name="lib" scope="globalHighPriority"/>
+  <librariesFolder name="lib" scope="global"/>
  </runtime>
 </plugin>
